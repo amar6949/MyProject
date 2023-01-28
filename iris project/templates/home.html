@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <form action="/predict" method="POST">
+            SEPAL LENGTH    : <input type="text" name = 'sepal_length'><br>
+            SEPAL WIDTH     : <input type="text" name = 'sepal_width'><br>
+            PETAL LENGTH    : <input type="text" name = 'petal_length'><br>
+            PETAL WIDTH     : <input type="text" name = 'petal_width'><br>
+
+            CLASS           : {{result}} <br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </body>
+</html>
